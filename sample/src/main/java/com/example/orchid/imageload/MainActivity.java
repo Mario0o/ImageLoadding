@@ -76,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
             con = new ImageLoadConfig();
             con.setLOCAL_PATH(getCacheDir().toString());
             bitMapUtils = new BitMapUtils(con);
+            ImageLoadConfig config = new ImageLoadConfig();
+            config.setLOCAL_PATH(getCacheDir().getPath());
         }
 
 

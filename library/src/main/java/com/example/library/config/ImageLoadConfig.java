@@ -22,32 +22,39 @@ public class ImageLoadConfig {
 
 
 
-    public void setDefault_image_Id(int default_image_Id) {
+    public ImageLoadConfig setDefault_image_Id(int default_image_Id) {
         this.default_image_Id = default_image_Id;
+        return this;
     }
 
-    public void setUseDiskCache(boolean useDiskCache) {
+    public ImageLoadConfig setUseDiskCache(boolean useDiskCache) {
         this.useDiskCache = useDiskCache;
+        return this;
     }
 
-    public void setMaxMemory(int maxMemory) {
+    public ImageLoadConfig setMaxMemory(int maxMemory) {
         this.maxMemory = maxMemory;
+        return this;
     }
 
-    public void setCONNECT_TIME(int CONNECT_TIME) {
+    public ImageLoadConfig setCONNECT_TIME(int CONNECT_TIME) {
         this.CONNECT_TIME = CONNECT_TIME;
+        return this;
     }
 
-    public void setREAD_TIME(int READ_TIME) {
+    public ImageLoadConfig setREAD_TIME(int READ_TIME) {
         this.READ_TIME = READ_TIME;
+        return this;
     }
 
-    public void setLOCAL_PATH(String LOCAL_PATH) {
+    public ImageLoadConfig setLOCAL_PATH(String LOCAL_PATH) {
         this.LOCAL_PATH = LOCAL_PATH;
+        return this;
     }
 
-    public void setInSampleSize(int inSampleSize) {
+    public ImageLoadConfig setInSampleSize(int inSampleSize) {
         this.inSampleSize = inSampleSize;
+        return this;
     }
 
     public int getDefault_image_Id() {
